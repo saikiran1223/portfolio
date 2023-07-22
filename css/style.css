@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.bannerBgImage{
+    height: 50vh;
+    background: url("/images/bannerimage.jpg");
+    background-size: auto;
+    position:relative;
+    
+}
+.bannerText{
+    text-align:right;
+    top: 50%;
+    left: 50%;
+    padding-top:100px;
+    padding-right: 80px;
+    transform: translate(-50% -50%);
+    color: aliceblue;
+}
+.bannertitle{
+
+    font-size: 4rem;
+}
+.bannerdiscri{
+
+    font-size:2rem;
+
+}
+.card-body:hover{
+      background-color: rgb(122, 128, 122);
+}
+
+.button{
+    background-color: rgb(4, 135, 19);
+    border-radius: 4px;
+    border-style: hidden;
+    border-spacing: 3px;
+    text-shadow: 3px;
+
+}
+
